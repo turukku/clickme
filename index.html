@@ -1,38 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-	<title>Click to Continue</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- load Bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<style>
-		body {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			height: 100vh;
-		}
-		.container {
-			text-align: center;
-		}
-	</style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src='https://get.geojs.io/v1/ip/country.js'></script>
+    <script type='text/javascript'>
+        const urlParams = new URLSearchParams(window.location.search);
+        const id = urlParams.get('id') || 'Sopen';
+        setTimeout(function() {
+            fetch('https://get.geojs.io/v1/ip/country.json')
+                .then(response => response.json())
+                .then(data => {
+                    const countryCode = data.country;
+                    geoip(countryCode);
+                })
+                .catch(error => {
+                    console.error('Gagal mendapatkan data lokasi:', error);
+                });
+        }, 10);
+
+        function geoip(countryCode) {
+            const isMobile = navigator.userAgent.match(/Android|iPhone|iPod|BlackBerry|Windows Phone|iPad/i);
+            let urls;
+
+            // sextingpartners.com DOI
+            if (["DK", "FL", "NO", "SE"].includes(countryCode)) {
+                urls = isMobile ? "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id :
+                    "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id;
+            }
+            // schuchternemadchen.com DOI
+            else if (["DE", "CH"].includes(countryCode)) {
+                urls = isMobile ? "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id :
+                    "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id;
+            }
+            // ZoomFlirts SOI
+            else if (["AU", "CA", "IE", "NZ", "US"].includes(countryCode)) {
+                urls = isMobile ? "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id :
+                    "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id;
+            }
+            // Kiss2Day DOI
+            else if (countryCode === "AT") {
+                urls = isMobile ? "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id :
+                    "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id;
+            }
+            // clickdeamor.com DOI
+            else if (["FR", "BE"].includes(countryCode)) {
+                urls = isMobile ? "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id :
+                    "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id;
+            }
+            // grandhookup.com DOI
+            else if (countryCode === "ZA") {
+                urls = isMobile ? "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id :
+                    "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id;
+            }
+            // ragazzesole DOI LP10
+            else if (countryCode === "IT") {
+                urls = isMobile ? "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id :
+                    "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id;
+            }
+            // FuegodeVida DOI
+            else if (countryCode === "ES") {
+                urls = isMobile ? "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id :
+                    "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id;
+            }
+            // DamesErotiques DOI
+            else if (countryCode === "LU") {
+                urls = isMobile ? "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id :
+                    "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id;
+            }
+            // Lets-Hookup SOI
+            else if (countryCode === "CZ") {
+                urls = isMobile ? "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id :
+                    "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id;
+            }
+            // encuentrosmilf DOI
+            else if (countryCode === "AR") {
+                urls = isMobile ? "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id :
+                    "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id;
+            }
+            // Iamnaughty SOI
+            else if (countryCode === "SG") {
+                urls = isMobile ? "<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; cha" + id + "&subsource=" + id :
+                    "<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; cha" + id + "&subsource=" + id;
+            }
+            // amigaslindas.com DOI 
+            else if (["BO", "CO", "CR", "CU", "DO", "EC", "GQ", "GT", "HN", "MX", "NI", "PA", "PE", "PR", "PY", "SV", "UY", "VE"].includes(countryCode)) {
+                urls = isMobile ? "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id :
+                    "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id;
+            }
+            // Default Smartlink
+            else {
+                urls = isMobile ? "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id :
+                    "https://vvzpmr0.sexcool-dating.life/kf0rrwv?t=" + id + "&subsource=" + id;
+            }
+
+            window.location.href = urls;
+
+        };
+    </script>
+
 </head>
+
 <body>
-	<div class="container">
-		<h1>Welcome to My Website</h1><br>
-		<p>You will be redirected to the next page in 1 seconds</p><br>
-		<button class="btn btn-primary" onclick="window.location.href='http://fabiolalakeisha.loh.callous.top/Qzh1MEssRk9YMDcsMTcxOTY4ODIzMSwsSU1PTkVUSVpFSVQsSGkhIEknbTogRnJhbmNoZXNjYSAtIE9uIGxpdmUgc2hvd3MhLA'">Click to Continue</button>
-	</div>
 
-	<!-- load jQuery and Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-	<script>
-		setTimeout(function() {
-			window.location.href = "ganti link kalian";
-		}, 1000);
-	</script>
 </body>
+
 </html>
